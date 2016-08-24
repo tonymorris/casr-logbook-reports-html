@@ -11,7 +11,7 @@ module Data.Aviation.Casr.Logbook.Reports.Html(
 
 import Control.Category((.))
 import Control.Lens((^.), _Wrapped)
-import Data.Aviation.Casr.Logbook(
+import Data.Aviation.Casr.Logbook.Types(
     landingTime
   , daytime
   , point
